@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  text-align: justify;
+  color: #000;
+  background-color: #EEEEEE;
+}
+
+/* Banner image */
+.banner-container {
+  display: block;
+  text-align: center;
+}
+
+.banner-container img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+header span {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  padding: .5em;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky {
+  top: 0px;
+  width: 100%;
+}
+
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 1em;
+  padding: 2em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+/* Aside */
+aside {
+  width: 20%;
+  text-align: center;
+  height: fit-content;
+  float: right;
+  padding: 1em;
+  margin: 1em;
+}
+
+/* Article */
+article {
+  border: 1px solid #000;
+  padding : 1em;
+  margin: 1em;
+}
+
+.history {
+  margin: 1em;
+}
+
+.li-title {
+  margin: 1.5em;
+}
+
+
+/* card */
+#profile {
+  border-radius: 5px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.desc span {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  text-align: center;
+  color: #ccc;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .5em;
+}
+
+footer ul li img {
+  width: 50px;
+  color: #fff;
+}
+
+footer ul li img:hover {
+  animation: .8s ease-in-out;
+  transform: scale(1.2);
+}
